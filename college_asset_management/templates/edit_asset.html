@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Edit Asset</title></head>
+<body>
+<h2>Edit Asset</h2>
+<form method="POST">
+    Name: <input type="text" name="name" value="{{ asset[1] }}"><br>
+    Category: <input type="text" name="category" value="{{ asset[2] }}"><br>
+    Location: <input type="text" name="location" value="{{ asset[3] }}"><br>
+    Purchase Date: <input type="date" name="purchase_date" value="{{ asset[4] }}"><br>
+    Condition: <input type="text" name="condition" value="{{ asset[5] }}"><br>
+    <input type="submit" value="Update">
+</form>
+</body>
+</html>
